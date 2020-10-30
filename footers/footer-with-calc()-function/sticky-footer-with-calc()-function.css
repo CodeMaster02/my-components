@@ -1,0 +1,26 @@
+/* ==== FOOTER STLYES ==== */
+
+.content {
+  min-height: calc(100vh - 50px);
+}
+
+.footer {
+  height: 50px;
+}
+
+
+
+/* ==== HELPER STYLES ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: lightblue;
+  height: 200px;
+}
+
+.footer {
+  background-color: lightyellow;
+}
