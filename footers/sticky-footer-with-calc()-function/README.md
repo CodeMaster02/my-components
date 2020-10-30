@@ -1,1 +1,0 @@
-This is a sticky footer with cals() function.
