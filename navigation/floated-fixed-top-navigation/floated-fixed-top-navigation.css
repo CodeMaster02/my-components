@@ -1,0 +1,81 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ==== TOP NAVIGATION ==== */
+
+nav {
+  background-color: hsla(0,0%,0%,.9);
+  padding: 1.125rem;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  padding: .5rem 1rem;
+}
+
+nav a:hover {
+  color: hsla(0,0%,90%,.8);
+  transition: color .2 ease-in-out;
+}
+
+.button-sign-up {
+  border: 1px solid hsla(0,0%,30%,.8);
+  border-radius: 9999px;
+}
+
+.button-sign-up:hover {
+  color: hsla(0,0%,0%,.9);
+  background-color: white;
+  transition: background-color .2s ease-in-out;
+}
+
+@media (min-width: 768px) {
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  nav a {
+    float: right;
+  }
+
+  .button-home {
+    float: left;
+  }
+
+    /* Clearfix */
+    nav::after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+
+}
+
+section {
+  font-size: 1rem;
+  font-family: 'Space Mono', monospace;
+}
+
+@media (min-width: 768px) {
+
+  section {
+    margin: 5.5rem 20% 0;
+  }
+
+}
+
+p {
+  padding: .4rem;
+  margin-bottom: 1.4rem;
+}
